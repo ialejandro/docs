@@ -6,7 +6,7 @@
 
 In the [STIX 2.1 standard](https://docs.oasis-open.org/cti/stix/v2.1/stix-v2.1.html), objects can:
 
-1. Refer to other objects in directly in their `attributes`, by referencing one or multiple IDs.
+1. Refer to other objects directly in their `attributes`, by referencing one or multiple IDs.
 2. Have other objects directly embedded in the entity.
 
 ### Example

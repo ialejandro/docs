@@ -2,7 +2,7 @@
 
 ## Generalities
 
-In (Cyber) Threat Intelligence, evaluation of information sources and of information quality is one of the most important aspect of the work. It is of the utter most importance to assess situations by taking into account reliability of the sources and credibility of the information.
+In (Cyber) Threat Intelligence, evaluation of information sources and of information quality is one of the most important aspect of the work. It is of utter importance to assess situations by taking into account the reliability of the sources and the credibility of the information.
 
 This concept is foundational in OpenCTI, and have real impact on:
 
@@ -17,7 +17,7 @@ Reliability of sources are often stated at organizational level, as it requires 
 
 In the Intelligence field, Reliability is often notated with the [NATO Admiralty code](https://en.wikipedia.org/wiki/Admiralty_code).
 
-### What is Confidence of an information?
+### What is the Confidence of an information?
 
 Reliability of a source is important but even a trusted source can be wrong. Information in itself has a credibility, based on what is known about the subject and the level of corroboration by other sources.
 
@@ -27,7 +27,7 @@ In the Intelligence field, Confidence is often notated with the [NATO Admiralty 
 
 !!! info "Why Confidence instead of Credibility?"
 
-    Using both Reliability and Credibility is an advanced use case for most of CTI teams. It requires a mature organization and a well staffed team. For most of internal CTI team, a simple confidence level is enough to forge assessment, in particular for teams that concentrate on technical CTI. 
+    Using both Reliability and Credibility is an advanced use case for most of CTI teams. It requires a mature organization and a well staffed team. For most of internal CTI teams, a simple confidence level is enough to forge assessment, in particular for teams that concentrate on technical CTI. 
 
     Thus in OpenCTI, we have made the choice to fuse the notion of Credibility with the Confidence level that is commonly used by the majority of users. They have now the liberty to push forward their practice and use both Confidence and Reliability in their daily assessments.
 
@@ -57,7 +57,7 @@ Reliability is an open vocabulary that can be customized in Settings -> Taxonomi
 
 !!! info
     
-    The setting by default is the Reliability scale from NATO Admiralty code. But you can define whatever best fit your organization.
+    The setting by default is the Reliability scale from NATO Admiralty code. But you can define whatever best fits your organization.
 
 ![Settings reliability](./assets/settings-reliability_ov.png)
 
