@@ -21,6 +21,7 @@ manage the public dashboards associated to this custom dashboard.
 ![Share dashboard button](assets/share-dashboard-button.png)
 
 In this panel you will find two parts:
+
 - At the top you have a form allowing you to create public dashboards,
 - And below, the list of the public dashboards you have created.
 
@@ -32,7 +33,7 @@ First you need to specify a name for your public dashboard. This name will be di
 on the dashboard page. The name is also used to generate an ID for your public dashboard
 that will be used in the URL to access the dashboard.
 
-The ID is generated as follow: replace all spaces with symbol `-` and remove special characters.
+The ID is generated as follows: replace all spaces with symbol `-` and remove special characters.
 This ID also needs to be unique in the platform as it is used in the URL to access the dashboard.
 
 ![Share dashboard name](assets/share-dashboard-name.png)
