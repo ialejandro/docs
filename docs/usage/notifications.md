@@ -67,6 +67,7 @@ An instance trigger set on an entity X actively monitors the following events:
 !!! note "Entity deletion notification"
 
     It's important to note that the notification of entity deletion can occur in two scenarios:
+
         - Real entity deletion: When the entity is genuinely deleted from the platform.
         - Visibility loss: When a modification to the entity results in the user losing visibility for that entity.
 
