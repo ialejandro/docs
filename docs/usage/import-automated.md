@@ -13,7 +13,7 @@ The behavior of each connector is defined by its development, determining the ty
 
 The level of configuration granularity regarding the imported data type varies with each connector. Nevertheless, connectors empower users to specify the date from which they wish to fetch data. This capability is particularly useful during the initial activation of a connector, enabling the retrieval of historical data. Following this, the connector operates in real-time, continuously importing new data from the source.
 
-### Connector Ecosystem
+### Connector ecosystem
 
 OpenCTI's connector ecosystem covers a broad spectrum of sources, enhancing the platform's capability to integrate data from various contexts, from threat intelligence providers to specialized databases. The list of available connectors can be found in our [connectors catalog](https://www.notion.site/OpenCTI-Ecosystem-868329e9fb734fca89692b2ed6087e76). Connectors are categorized into three types: import connectors (the focus here), [enrichment connectors](enrichment.md), and stream consumers. Further documentation on connectors is available on [the dedicated documentation page](../deployment/connectors.md).
 
