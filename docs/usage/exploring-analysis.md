@@ -45,6 +45,7 @@ Exploring and modifying the structured Knowledge contained in a Report can be do
 
 In Graph view, STIX SDO are displayed as graph nodes and relationships as graph links. Nodes are colored depending of their type. Direct relationship are displayed as plain link and inferred relationships in dotted link.
 At the top right, you will find a serie of icons. From there you can change the current type of view. Here you can also perform global action on the Knowledge of the Report. Let's highlight 2 of them:
+
 - Suggestions: This tool suggests you some logical relationships to add between your contained Object to give more consistency to your Knowledge.
 - Share with an Organization: if you have designated a main Organization in the platform settings, you can here share your Report and its content with users of an other Organization.
 At the bottom, you have many option to manipulate the graph:
@@ -91,6 +92,7 @@ In the MITRE STIX 2.1 documentation, a `Grouping` is defined as such :
 When clicking on the Groupings tab at the top of the interface, you see the list of all the Groupings you have access to, in respect with your [allowed marking definitions](../administration/users.md). You can then search and filter on some common and specific attributes of the groupings.
 
 Clicking on a Grouping, you land on its Overview tab. For a Groupings, the following tabs are accessible:
+
 - Overview: as described [here](overview.md#overview-section).
 - Knowledge: a complex tab that regroups all the structured Knowledge contained in the groupings, as for a Report, except for the Timeline view. As described [here](overview.md#knowledge-section).
 - Entities: A table containing all SDO (Stix Domain Objects) contained in the Grouping, with search and filters available. It also display if the SDO has been added directly or through [inferences with the reasonging engine](inferences.md)
@@ -105,11 +107,13 @@ Malware analyses are an important part of the Cyber Threat Intelligence, allowin
 In OpenCTI, Malware Analyses can be created from enrichment connectors that will take an Observable as input and perform a scan on a online service platform to bring back results. As such, Malware Analyses can be done on File, Domain and URL.
 
 In the MITRE STIX 2.1 documentation, a `Malware Analyses` is defined as such :
+
 > Malware Analyses captures the metadata and results of a particular static or dynamic analysis performed on a malware instance or family.
 
 When clicking on the Malware Analyses tab at the top of the interface, you see the list of all the Malware Analyses you have access to, in respect with your [allowed marking definitions](../administration/users.md). You can then search and filter on some common and specific attributes of the Malware Analyses.
 
 Clicking on a Malware Analyses, you land on its Overview tab. The following tabs are accessible:
+
 - Overview: This view contains some additions from the common Overview [here](overview.md#overview-section). You will find here details about how the analysis have been performed, what is the global result regarding the malicioussness of the analysed artifact and all the Observables that have been found during the analysis. 
 - Knowledge: If you Malware analysis is linked to other Objects that are not part of the analysis result, they will be displayed here. As described [here](overview.md#knowledge-section).
 - Data: as described [here](overview.md#data-section).
@@ -123,9 +127,11 @@ Clicking on a Malware Analyses, you land on its Overview tab. The following tabs
 Not every Knowledge can be structured. For allowing any users to share their insights about a specific Knowledge, they can create a Note for every Object and relationship in OpenCTI they can access to. All the Notes are listed within the Analyses menu for allowing global review of this unstructured addition to the global Knowledge.
 
 In the MITRE STIX 2.1 documentation, a `Note` is defined as such :
+
 > A Note is intended to convey informative text to provide further context and/or to provide additional analysis not contained in the STIX Objects, Marking Definition objects, or Language Content objects which the Note relates to. Notes can be created by anyone (not just the original object creator).
 
 Clicking on a Note, you land on its Overview tab. The following tabs are accessible:
+
 - Overview: as described [here](overview.md#overview-section).
 - Data: as described [here](overview.md#data-section).
 - History: as described [here](overview.md#history-section).
@@ -135,8 +141,10 @@ Clicking on a Note, you land on its Overview tab. The following tabs are accessi
 Intelligence is never created from nothing. External references give user a way to link sources or reference documents to any Object in the platform. All external references are listed within the Analyses menu for accessing directly sources of the structured Knowledge.
 
 In the MITRE STIX 2.1 documentation, a `External references` is defined as such :
+
 > External references are used to describe pointers to information represented outside of STIX. For example, a Malware object could use an external reference to indicate an ID for that malware in an external database or a report could use references to represent source material.
 
 Clicking on an External reference, you land on its Overview tab. The following tabs are accessible:
+
 - Overview: as described [here](overview.md#overview-section).
 
